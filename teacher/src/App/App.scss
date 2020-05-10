@@ -1,0 +1,120 @@
+.root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  min-width: 800px;
+  overflow: hidden;
+}
+.continer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  border-right: 3px white solid;
+  right: 30%;
+  z-index: 2;
+  // display: none;
+}
+.teacher{
+  // transition: 0.05s;
+  width: 100%;
+  height: 100%;
+  background:#fca1bb;
+  display: block;
+  position: absolute;
+  right:0;
+  top: 0;
+  overflow: hidden;
+}
+.teacher-character{
+  position: absolute;
+  right: 5%;
+  bottom: 12%;
+  height: 50%;
+  img{
+    height: 100%;
+  }
+}
+.teacher-blackboard{
+  position: absolute;
+  right: 3%;
+  top: 15%;
+  height: 19%;
+  width: auto;
+  img{
+    height: 100%;
+  }
+}
+.teacher-clock{
+  position: absolute;
+  top:33%;
+  right: calc(400px + 25%);
+  height: 10%;
+  img{
+    height: 100%;
+    transform: translateX(30%);
+  }
+}
+.teacher-content{
+  position: absolute;
+  right: calc(400px + 25%);
+  bottom: 25%;
+}
+
+
+
+.student{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #a29cf8;
+  z-index: 1;
+}
+.student-character{
+  position: absolute;
+  right: 10%;
+  bottom: 13%;
+  height: 50%;
+  max-width: 500px;
+  img{
+    height: 100%;
+  }
+}
+.stuednt-content{
+  position: absolute;
+  right: calc(400px + 25%);
+  bottom: 25%;
+}
+.student-shelf{
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  width: 150px;
+  height: 70px;
+  img:first-of-type{
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  img:last-of-type{
+    position: absolute;
+    height: 55px;
+    right: 0;
+    top: 0;
+  }
+}
+.student-dog{
+  position: absolute;
+  height: 10%;
+  top: 30%;
+  right: 35%;
+  img{
+    height:100%;
+    padding: 0 10px;
+  }
+}
+
